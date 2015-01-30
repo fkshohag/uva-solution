@@ -1,0 +1,16 @@
+# include <iostream>
+# include <cmath>
+# include <cstdio>
+# define ll long long
+using namespace std;
+int main()
+{
+    ll n,sum;
+  while(cin>>n)
+  {
+      sum=(n*(n+2)/2)*3-6;
+      cout<<sum;
+      cout<<endl;
+  }
+  return 0;
+}
