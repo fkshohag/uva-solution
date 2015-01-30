@@ -34,7 +34,7 @@ void sieve()
 }
 int main()
 {
-    freopen("in.text","r",stdin);
+    //freopen("in.text","r",stdin);
     memset(prim,false,sizeof prim);
     sieve();
     int n,c;
