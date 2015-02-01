@@ -14,7 +14,7 @@ int f91(int n)
 }
 int main()
 {
-    freopen("in.text","r",stdin);
+    //freopen("in.text","r",stdin);
 int n;
 while(scanf("%d",&n)==1)
 {
