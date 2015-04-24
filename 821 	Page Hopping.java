@@ -44,7 +44,8 @@ public class Main{
             for(int k=0;k<105;k++)
                 for(int i=0;i<105;i++)
                     for(int j=0;j<105;j++)
-                        data[i][j]=Math.min(data[i][j],data[i][k]+data[k][j]);
+                        if(data[i][j]>data[i][k]+data[k][j])
+                            data[i][j]=data[i][k]+data[k][j];
             float ans=0,nas=0;
             for(int i=0;i<105;i++)
                 for(int j=0;j<105;j++)
