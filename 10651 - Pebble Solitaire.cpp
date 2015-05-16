@@ -32,7 +32,7 @@ int solve(int mask)
 }
 int main()
 {
-	freopen("in","r",stdin);
+	//freopen("in","r",stdin);
 	int test;
 	char s[20];
 	si(test);
