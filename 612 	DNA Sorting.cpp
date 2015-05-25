@@ -35,27 +35,21 @@ int main ()
     while ( testCase-- ) {
         int n, m;
         scanf ("%d %d", &n, &m);
-
-        for ( int i = 0; i < m; i++ ) {
+        for (int i=0;i<m;i++) {
             cin>>str[i];
             a[i].line=str[i];
             a [i].num = bubble_sort(str[i],n);
         }
-
         stable_sort (a, a + m, cmp);
-
         if ( blank ) printf ("\n");
         blank = true;
-
         rep(i,m)
         {
         rep(j,n)
         printf("%c",a[i].line[j]);
         printf("\n");
         }
-
     }
-
     return 0;
 }
 
