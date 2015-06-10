@@ -13,7 +13,7 @@
     if(dp[m][n]!=-1)return dp[m][n];
     if(x[m-1]==y[n-1])
     {
-    return dp[m][n]=1+lcs(x,y,m-1,n-1);
+    return dp[m][n]=1+lcs(x,y,m-1,n-1);//chack 
     }
     else
     {
