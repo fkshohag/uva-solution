@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    freopen("in.txt", "r", stdin);
+    //freopen("in.txt", "r", stdin);
     int n, data[3001], d[3001];
 
     while(scanf("%d", &n) == 1) {
